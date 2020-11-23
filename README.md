@@ -5,11 +5,9 @@ Home: https://github.com/juba/rmdformats
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmdformats-feedstock/blob/master/LICENSE.txt)
 
 Summary: HTML formats and templates for 'rmarkdown' documents, with some extra features such as automatic table of contents, lightboxed figures, dynamic crosstab helper.
-
-
 
 Current build status
 ====================
