@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rmdformats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rmdformats/rmdformats_{{ version }}.tar.gz
-  sha256: dfaa1ac44c1dacb886db1b3cf95f31ffd517b8c744b86ddfa20cf755eff77634
+  sha256: 6c1ddb01797b17cbc2751da84242595c7a9aa14f9ae968992aff34fadce62291
 
 build:
   merge_build_host: true  # [win]
