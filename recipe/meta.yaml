@@ -28,14 +28,12 @@ requirements:
     - r-bookdown
     - r-htmltools
     - r-knitr
-    - r-questionr
     - r-rmarkdown
   run:
     - r-base
     - r-bookdown
     - r-htmltools
     - r-knitr
-    - r-questionr
     - r-rmarkdown
 
 test:
@@ -45,10 +43,11 @@ test:
 
 about:
   home: https://github.com/juba/rmdformats
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: HTML formats and templates for 'rmarkdown' documents, with some extra features such as automatic table of contents, lightboxed figures, dynamic crosstab helper.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
